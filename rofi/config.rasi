@@ -1,0 +1,16 @@
+configuration {
+	modi:                   "drun,window,ssh,run";
+
+	width:                  500;
+	lines:                  10;
+	fixed-num-lines:        false;
+	location:               2;
+        yoffset:                150;
+
+	font:                   "JetBrains Mono 12";
+	terminal:               "kitty";
+	drun-display-format:    "{name}";
+
+	sidebar-mode:		true;
+}
+@theme "./theme.rasi"
